@@ -49,7 +49,8 @@ body {
   color: #000000;
 }
 
-.my-descr {
+.my-descr,
+.project-descr {
   width: 525px;
 
   font-size: 14px;
@@ -91,8 +92,8 @@ body {
   font-size: 14px;
   line-height: 1.7;
   text-decoration-line: underline;
-
   color: #005fff;
+  -moz-text-decoration-line: underline;
 }
 
 /* Work experience */
@@ -180,7 +181,7 @@ body {
 /* Side bar */
 
 .sidebar {
-  width: 370px;
+  width: 285px;
 
   background: rgba(109, 155, 245, 0.1);
 }
